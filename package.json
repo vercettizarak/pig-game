@@ -1,0 +1,15 @@
+{
+  "name": "pig-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "http://vercettizarak.github.io/pig-game",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

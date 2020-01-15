@@ -65,12 +65,6 @@ function rollDice() {
   //3 Put the Number in the current Score
   actualPlayer.id === 'p1'? playerScore = domStrings.p1CurScore : playerScore = domStrings.p2CurScore;
 
- /*  if (actualPlayer.id === 'p1') {
-    playerScore = domStrings.p1CurScore;
-  } else if (actualPlayer.id === 'p2') {
-    playerScore = domStrings.p2CurScore; 
-  }
- */
   if (dice !== 1) {
     state.curScore += dice;
 
@@ -85,7 +79,6 @@ function rollDice() {
     // Changing player turn
     actualPlayer.id === state.p1.id ? actualPlayer = state.p2 : actualPlayer = state.p1;
   }
-  console.log(state.curScore)
 }
 
 // New Game when Page is loaded

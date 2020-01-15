@@ -89,5 +89,3 @@ domStrings.btnNew.addEventListener('click', newGame);
 
 //ROLL dice Buton clicked
 domStrings.rollbtn.addEventListener('click', rollDice);
-
-console.log('wtf is happening')
